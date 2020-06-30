@@ -30,3 +30,8 @@ body {
 #JotFormIFrame-201812932317349:hover{
 opacity: 1;
 }
+@media only screen and (max-width: 600px) {
+ .content{
+  width: 50%;
+ }
+}
