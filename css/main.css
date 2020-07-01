@@ -18,20 +18,18 @@ body {
 
 .content {
   position: fixed;
-  bottom: 0;
-/*  background: rgba(0, 0, 0, 0.5);*/
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+  margin-top: 10%;
+  margin-left: 30%;
+  opacity: 0;
 }
-#JotFormIFrame-201812932317349{
+.content:hover{
+  opacity: 1;
+}
+
+/*#JotFormIFrame-201812932317349{
   opacity: 0;
 }
 #JotFormIFrame-201812932317349:hover{
 opacity: 1;
 }
-@media only screen and (max-width: 600px) {
- .content{
-  margin-top: 20%;
- }
-}
+*/
