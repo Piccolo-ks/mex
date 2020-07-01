@@ -16,19 +16,18 @@ body {
   min-height: 100%;
 }
 
-.container {
+.container{
   position: fixed;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  /*padding: 20px;*/
-  margin-left: 30%;
-  margin-top: 10%;
   opacity: 0;
+  width: 100%;
 }
 .container:hover{
   opacity: 1;
 }
-
+iframe{
+  margin-left: 130%;
+  margin-top: 10%;
+}
 .col-25 {
   float: left;
   width: 25%;
@@ -43,7 +42,7 @@ body {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 720px) {
+/*@media screen and (max-width: 720px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
@@ -58,4 +57,4 @@ body {
   iframe{
     width: 400px;
   }
-}
+}*/
